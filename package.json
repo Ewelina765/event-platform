@@ -1,0 +1,30 @@
+{
+  "name": "events-platform",
+  "version": "0.1.0",
+  "description": "Events management platform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "watch": "nodemon node src/index.js",
+    "knex": "knex"
+  },
+  "author": "Ewelina",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "@types/koa__router": "^12.0.4",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "pg": "^8.13.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.15.0"
+  }
+}
